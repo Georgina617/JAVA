@@ -1,3 +1,29 @@
 p{
     font-size: 70px;
 }
+
+body{
+    padding: 150px;
+}
+
+input{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 300px;
+    outline: none;
+}
+button{
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+button:hover{
+    opacity: 70%;
+}
+button:active{
+    padding: 7px    ;
+}
